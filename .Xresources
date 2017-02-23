@@ -1,0 +1,111 @@
+! URXVT GENERAL CONFIG
+!------------------------------------------------
+URxvt*iconFile: /usr/share/icons/Faenza/apps/32/utilities-terminal.png
+IRC*iconFile: /usr/share/icons/Faenza/apps/32/xchat.png
+URxvt*termName: rxvt
+URxvt.geometry: 80x22
+
+URxvt.transparent:   true
+URxvt.shading:       20
+
+! URXVT FONTS
+!------------------------------------------------
+URxvt.font:xft:Deja Vu Sans Mono:pixelsize=22
+URxvt.boldFont:xft:Deja Vu Sans Mono:bold:pixelsize=22
+URxvt.italicfont:xft:Deja Vu Sans Mono:italic:pixelsize=22
+URxvt.bolditalicFont:xft:Deja Vu Sans Mono:bold:italic:pixelsize=22
+URxvt*letterSpace: 0
+URxvt*allow_bold: true
+! URXVT FONT SETTINGS
+!------------------------------------------------
+Xft.autohint: true
+Xft.antialias: true
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+Xft.dpi: 140
+! URXVT ENABLE LINK SUPPORT
+!------------------------------------------------
+URxvt.perl-ext-common: default,matcher,clipboard
+!tabbed
+URxvt.matcher.button: 1
+URxvt.perl-ext: default
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/chromium
+URxvt.url-select.underline: true
+!disable the fucking bell
+URxvt.insecure: false
+! URXVT COPY PASTE SHORTCUTS
+!------------------------------------------------
+URxvt.iso14755: False
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+! URXVT SCROLLBAR AND CURSOR STYLE
+!------------------------------------------------
+URxvt*saveLines: 300000
+URxvt.scrollBar: false
+!URxvt*scrollstyle: plain
+URxvt*cursorBlink: true
+URxvt*cursorUnderline: true
+
+! URXVT TABS
+!------------------------------------------------
+URxvt.tabbedex.autohide: yes
+URxvt.tabbedex.tabbar-fg: 2
+URxvt.tabbedex.tabbar-bg: 0
+URxvt.tabbedex.tab-fg: 10
+URxvt.tabbedex.tab-bg: 0
+URxvt.tabbedex.title: yes
+URxvt.tabbedex.new-button: no
+! URXVT FULLSCREEN TOGGLE
+!------------------------------------------------
+URxvt.keysym.F11: perl:fullscreen:switch
+! URXVT COLORS
+!------------------------------------------------
+! vim: set filetype=xdefaults :
+URxvt.background: #232323
+URxvt.foreground: #A0A0A0
+
+URxvt.colorBD:    #CFCFCF
+URxvt.colorUL:    #A0A0A0
+URxvt.colorIT:    #686868
+
+!BLK
+URxvt.color0:     #303030
+URxvt.color8:     #686868
+
+!RED
+URxvt.color9:     #FFA7DA
+URxvt.color1:     #D370A3
+
+!GRN
+URxvt.color10:    #A3D572
+URxvt.color2:     #6D9E3F
+
+!BLU
+URxvt.color12:    #98CBFE
+URxvt.color4:     #6095C5
+
+!YEL
+URxvt.color11:    #EFBD8B
+URxvt.color3:     #B58858
+
+!CYN
+URxvt.color14:    #75DAA9
+URxvt.color6:     #3BA275
+
+!MAG
+URxvt.color13:    #E5B0FF
+URxvt.color5:     #AC7BDE
+
+!WHT
+URxvt.color7:     #CFCFCF
+URxvt.color15:    #FFFFFF
+
+! CURSOR SETTINGS
+!------------------------------------------------
+Xcursor.theme: Vanilla-DMZ-AA
+Xcursor.size: 32

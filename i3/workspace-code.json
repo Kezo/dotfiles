@@ -1,0 +1,83 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 6,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 532,
+               "width": 1124,
+               "x": 0,
+               "y": 0
+            },
+            "name": "kezo@Skarmory:~/code",
+            "percent": 0.5,
+            "swallows": [
+               {
+                  "class": "^URxvt$",
+                  "instance": "^urxvt$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 6,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 532,
+               "width": 1124,
+               "x": 0,
+               "y": 0
+            },
+            "name": "kezo@Skarmory:~/code",
+            "percent": 0.5,
+            "swallows": [
+               {
+                  "class": "^URxvt$",
+                  "instance": "^urxvt$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // splith split container with 1 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 6,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 532,
+               "width": 1124,
+               "x": 0,
+               "y": 0
+            },
+            "name": "kezo@Skarmory:~/code",
+            "percent": 1,
+            "swallows": [
+               {
+                  "class": "^URxvt$",
+                  "instance": "^urxvt$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

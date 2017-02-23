@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/kezo/code/work/kada/konventsystem/konvent-web/src/app/events'
+let g:netrw_dirhist_2='/home/kezo/code/work/kada/konventsystem/konvent-web/src/app/events/event-detail'
+let g:netrw_dirhist_3='/home/kezo/code/work/kada/konventsystem/konvent-web/src/app/admin/permissions'
+let g:netrw_dirhist_4='/home/kezo/code/work/modus/server-nodejs/src'
+let g:netrw_dirhist_5='/home/kezo/code/work/modus/server-nodejs/src/mini-dave'
+let g:netrw_dirhist_6='/home/kezo/code/work/modus/server-nodejs/src/mini-dave/server'
